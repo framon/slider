@@ -2034,16 +2034,16 @@ var $Jssor$ = window.$Jssor$ = new function () {
             var className = _OriginClassName;
 
             if (_IsDisabled) {
-                className += 'ds';
+                className += ' ds';
             }
             else if (_IsMouseDown) {
-                className += 'dn';
+                className += ' dn';
             }
             else if (_IsSelected == 2) {
-                className += "pv";
+                className += " pv";
             }
             else if (_IsSelected) {
-                className += "av";
+                className += " av";
             }
 
             ClassName(elmt, className);
